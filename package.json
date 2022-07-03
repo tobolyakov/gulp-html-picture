@@ -1,0 +1,28 @@
+{
+	"name": "gulp-html-picture",
+	"version": "1.0.0",
+	"description": "Replaces the <img> tag with <picture> <source> <img> in HTML files. No SVG, GIF format and data- support",
+	"main": "index.js",
+	"dependencies": {
+		"through2": "^4.0.2"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"url": "https://github.com/tobolyakov/gulp-html-picture"
+	},
+	"bugs": {
+		"url": "https://github.com/tobolyakov/gulp-html-picture/issues"
+	},
+	"homepage": "https://github.com/tobolyakov/gulp-html-picture",
+	"keywords": [
+		"gulp",
+		"webp",
+		"avif",
+		"html"
+	],
+	"author": "Igor Tobolyakov",
+	"license": "MIT"
+}
