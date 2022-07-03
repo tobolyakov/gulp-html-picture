@@ -61,7 +61,7 @@ module.exports = ( options = { webp: true, avif: false, noPicture: 'no_picture' 
 								return
 							} else {
 								let extension = path.extname( imagesUrlArr[ id ] );
-								imagesUrlArr[ id ] = imagesUrlArr[ id ].replace( extension )
+								imagesUrlArr[ id ] = imagesUrlArr[ id ].replace( extension, '' )
 
 								newHTMLArr.push( pictureRender( imagesUrlArr[ id ], imagesTagArr[ id ] ) )
 							}
