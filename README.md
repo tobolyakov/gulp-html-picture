@@ -101,8 +101,7 @@ task( 'html:picture', () => {
 } );
 ```
 
-### Caniuse
-
-[WebP image format]: https://caniuse.com/webp
-[AVIF image format]: https://caniuse.com/avif
+### Can i use
+[WebP image format](https://caniuse.com/webp)
+[AVIF image format](https://caniuse.com/avif)
 
